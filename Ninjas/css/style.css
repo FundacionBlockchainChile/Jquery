@@ -1,0 +1,26 @@
+.container {
+  width: 970px;
+  height: 800px;
+  margin: 50px auto;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  items-align: center;
+  margin: 0 auto;
+
+}
+
+.ninja {
+  /* height: 200px; */
+  max-width: 100px;
+  background-color: black;
+}
+
+.card {
+  margin: 10px;
+}
+
+.deleteMessage {
+  border: 5px solid red;
+}
