@@ -19,8 +19,16 @@
 
 .card {
   margin: 10px;
+  color: white;
 }
 
 .deleteMessage {
   border: 5px solid red;
+}
+
+h5 {
+  /* padding-top: 250px; */
+  /* padding: 10px 30px; */
+  background-color: rgba(255, 0, 0, 0.507);
+  vertical-align: center;
 }
