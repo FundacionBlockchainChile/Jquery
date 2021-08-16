@@ -1,0 +1,48 @@
+body {
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  border-bottom: 1px solid #ae8f87;
+  color: #3a497b;
+}
+
+input[type=text] {
+  border: 1px solid #738c94;
+  color: #3a497b;
+  font-size: 100%;
+  height: 2em;
+}
+
+label {
+  color: #3a497b;
+  display: block;
+  color: #333;
+  font-size: 85%;
+}
+
+input {
+  width: 80%;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+#page {
+  max-width: 44em;
+  margin: 1em auto 1em;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.btn {
+  margin-top: 40px;
+}

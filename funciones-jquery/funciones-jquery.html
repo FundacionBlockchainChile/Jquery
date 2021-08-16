@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/classe_02.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        var btn_moverDerecha = $('#right')
+        var btn_text = $('#text')
+        var btn_color = $('#color')
+        var btn_all = $('#all')
+        var btn_gif = $('#buttonGif')
+        var divImage = $('#imageGif')
+        var theDiv = $('#theDiv')
+        var redondear = $('#redondear')
+        divImage.hide()
+
+        btn_moverDerecha.click(function () {
+          $(theDiv).animate({ width: '1000px' }, 1000)
+        })
+        btn_text.click(function () {
+          $(theDiv).animate({ fontSize: '24pt' }, 1000)
+        })
+        btn_color.click(function () {
+          $(theDiv).toggleClass('backgroundGreen')
+        })
+        btn_all.click(function () {
+          $(theDiv).animate({ width: '1000px' }, 1000)
+          $(theDiv).animate({ fontSize: '24pt' }, 1000)
+          $(theDiv).toggleClass('backgroundGreen')
+          var text = $(btn_gif).text()
+          $(btn_gif).text(text == 'Show GIF' ? 'Hide GIF' : 'Show GIF')
+
+          divImage.toggle()
+        })
+        redondear.click(function () {
+          $(theDiv).toggleClass('rounded')
+        })
+
+        btn_gif.click(function () {
+          var text = $(btn_gif).text()
+          $(btn_gif).text(text == 'Show GIF' ? 'Hide GIF' : 'Show GIF')
+
+          divImage.toggle()
+        })
+      })
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Practica Animacion jQuery</h1>
+    <div id="theDiv">This is a Div...</div>
+    <div id="content">
+      <button id="right">Agrandar</button>
+      <button id="text">Animar texto</button>
+      <button id="color">Cambiar Color</button>
+      <button id="all">Todas las propiedades</button>
+      <button id="redondear">Redondear Brodes</button>
+      <button id="buttonGif">Show GIF</button>
+    </div>
+    <div id="imageGif">
+      <img src="https://media.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif" />
+    </div>
+  </body>
+</html>
