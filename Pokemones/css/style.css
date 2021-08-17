@@ -1,0 +1,36 @@
+.container {
+  width: 970px;
+  height: auto;
+  min-height: 500px;
+  margin: 50px auto;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  items-align: center;
+  margin: 0 auto;
+
+}
+
+.ninja {
+  /* height: 200px; */
+  max-width: 100px;
+  background-color: black;
+}
+
+.card {
+  margin: 10px;
+  color: white;
+}
+
+.deleteMessage {
+  border: 5px solid red;
+  margin: 40px;
+}
+
+h5 {
+  /* padding-top: 250px; */
+  /* padding: 10px 30px; */
+  background-color: rgba(255, 0, 0, 0.507);
+  vertical-align: center;
+}
