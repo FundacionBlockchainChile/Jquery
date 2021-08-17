@@ -4,7 +4,7 @@ $(function () {
   let $starAgainBtn = $('#star_again')
   let $celebrationImage = $('#celebrationImage')
 
-  // $($celebrationImage).hide()
+  $($celebrationImage).hide()
 
   let images = [
     'img/ninja0.png',
