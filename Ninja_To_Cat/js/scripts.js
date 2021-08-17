@@ -4,7 +4,7 @@ $(function () {
   let $starAgainBtn = $('#star_again')
   let $celebrationImage = $('#celebrationImage')
 
-  $($celebrationImage).hide()
+  // $($celebrationImage).hide()
 
   let images = [
     'img/ninja0.png',
@@ -49,7 +49,7 @@ $(function () {
     $('#img04').attr('src', getRandomImage())
     $('#img05').attr('src', getRandomImage())
   })
-  // $restoreBtn.click(function () {
-  //   $('.card').show(1000)
-  // })
+  $celebrationImage.click(function () {
+    $celebrationImage.hide(1000)
+  })
 })
