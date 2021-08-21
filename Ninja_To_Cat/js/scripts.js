@@ -21,7 +21,7 @@ $(function () {
 
   const getRandomImage = () => {
     let randomNumber = Math.floor(Math.random() * 10)
-    console.log(images[randomNumber])
+    // console.log(images[randomNumber])
     return images[randomNumber]
   }
 
