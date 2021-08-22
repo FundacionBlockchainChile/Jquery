@@ -9,11 +9,23 @@
     <title>Pokemones</title>
   </head>
   <body class="bg-dark p-4">
-    <div class="container bg-light p-4">
-      <h1 class="col">Pokemones Gallery</h1>
-      <div id="pokemonContainer" class="row d-flex justify-content-center">
+    <div
+      class="container bg-light p-4 d-flex flex-column justify-content-center"
+    >
+      <h1 class="">Pokemons Gallery</h1>
+      <div id="pokemonContainer" class="row d-flex justify-content-center m-4">
         <!-- APPENDED CONTENT -->
       </div>
+
+      <div class="skillsBox rowd-flex justify-content-center m-4">
+        <h3>Pokemons Name: <span id="name"></span></h3>
+        <p>
+          <strong>Type of creature:</strong> <span id="typeOfPokemon"></span>
+        </p>
+        <p><strong>Height:</strong> <span id="height"></span></p>
+        <p><strong>Weight:</strong> <span id="weight"></span></p>
+      </div>
+
       <div class="rowd-flex justify-content-center">
         <button id="delete" class="btn btn-danger m-2">Delete All</button>
         <button id="loadBtn" class="btn btn-success m-2">Load More!</button>

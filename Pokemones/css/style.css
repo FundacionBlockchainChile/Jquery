@@ -12,10 +12,13 @@
 
 }
 
-.ninja {
+.skillsBox {
   /* height: 200px; */
-  max-width: 100px;
-  background-color: black;
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 20px;
+  border: 1px solid gray;
 }
 
 .card {
